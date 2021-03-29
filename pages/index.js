@@ -9,7 +9,7 @@ export default function Home() {
         <title>Home | {siteTitle}</title>
       </Head>
       <section>
-          <p>Hi, I'm Murat. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          <p>11 Hi, I'm Murat. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
           <p>Excepturi inventore dicta et ex quaerat voluptates facere dolorem laborum cumque dolores aliquam cum neque reiciendis. Go to my <Link href="blog"><a>Blog</a></Link>.</p>
       </section>
       <section>
