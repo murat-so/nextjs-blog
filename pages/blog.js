@@ -24,7 +24,7 @@ export default function Home({allPostsData}) {
       </Head>
 
       <Container mt="3">{/* POSTS: */}
-      {allPostsData.map(({ id, date, title }) => (
+      {allPostsData.map(({ id, date, title, category }) => (
           <Box key={id} p={0} mb={3} display={{ md: "flex" }} p={2} shadow="md" borderWidth="1px" flex="1" borderRadius="md">
             <Box flexShrink={0}>
               <Image
@@ -42,7 +42,7 @@ export default function Home({allPostsData}) {
                 letterSpacing="wide"
                 color="teal.600"
                 mt="2">
-                {id}
+                {category}
               </Text>
               <Link href={`/posts/${id}`}>
                 <Text cursor="pointer" fontSize="xm">{title}</Text>
