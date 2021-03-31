@@ -5,7 +5,6 @@ import Date from '../../components/date'
 
 
 
-
 export async function getStaticPaths() {
     const paths = getAllPostIds()
     return {
