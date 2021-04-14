@@ -29,7 +29,7 @@ export default function Post({ postData }) {
         <Head>
             <title>{postData.title} | { siteTitle }</title>
 
-            <link href='https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism.css' rel='stylesheet'/>
+            <link href='https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css' rel='stylesheet'/>
 	          <script src='https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.js'/>
 	          <script src='https://cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-swift.min.js'/>
 
