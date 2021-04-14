@@ -15,8 +15,6 @@ import {
   BreadcrumbSeparator,
 } from "@chakra-ui/react"
 
-
-
 export async function getStaticPaths() {
     const paths = getAllPostIds() 
     return {
@@ -30,6 +28,11 @@ export default function Post({ postData }) {
       <Layout>
         <Head>
             <title>{postData.title} | { siteTitle }</title>
+
+            <link href='https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism.css' rel='stylesheet'/>
+	          <script src='https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.js'/>
+	          <script src='https://cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-swift.min.js'/>
+
 
             <style>{`
               h1,h2,h3,h4,h5,h6{
